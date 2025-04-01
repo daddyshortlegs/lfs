@@ -1,5 +1,5 @@
 create_base_directories() {
-	sudo mkdir -pv $LFS{etc,var} $LFS/usr/{bin,lib,sbin}
+	sudo mkdir -pv $LFS/{etc,var} $LFS/usr/{bin,lib,sbin}
 	for i in bin lib sbin; do
 		sudo ln -sv usr/$i $LFS/$i
 	done

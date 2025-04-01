@@ -1,3 +1,9 @@
+#set -e
+
+#if [ "$LFS" != "/mnt/lfs" ]; then
+#	exit
+#fi
+
 download_packages() {
 	sudo mkdir -v $LFS/sources
 	sudo chmod -v a+wt $LFS/sources

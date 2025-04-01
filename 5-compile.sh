@@ -162,9 +162,9 @@ build_libstdc() {
 }
 
 
-#build_binutils
-#build_gcc
-#build_headers
+build_binutils
+build_gcc
+build_headers
 build_glibc
 build_libstdc
 
